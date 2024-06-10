@@ -10,7 +10,7 @@ function appendToDisplay(input) {
 function clearDisplay() {
     display.value = "0";
   }
-  
+//function to evaluate the expression from user
   function calculate() {
     try {
       display.value = eval(display.value);
